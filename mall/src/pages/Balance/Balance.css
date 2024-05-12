@@ -1,0 +1,128 @@
+.balance_main {
+    position: relative;
+    height: 850px;
+    overflow-y: auto;
+    /* background-color: pink; */
+    margin: 10px auto;
+    width: 1000px;
+
+}
+
+.balance_address {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+
+.balance_address .address_user {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* 订单部分 */
+.balance_content {
+    height: 700px;
+    overflow-y: auto;
+}
+
+.balance_content li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 1px solid orange;
+    margin-bottom: 5px;
+}
+
+.balance_content .fruit_info {
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-size: 15px;
+}
+
+.balance_content .fruit_info .fruit_name {
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.balance_content .fruit_info img {
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+}
+
+
+
+.balance_content .number_price .sub_number,
+.balance_content .number_price .add_number {
+    padding: 0;
+    width: 20px;
+    line-height: 0;
+    height: 20px;
+    border-radius: 0;
+}
+
+.balance_content .number_price .number {
+    margin: 0 10px;
+}
+
+.balance_content .number_price .price {
+    margin-bottom: 20px;
+}
+
+.balance_content .number_price .price {
+    width: 150px;
+}
+
+.balance_content .number_price .price span,
+.balance_data .sum_price .price {
+    color: red;
+    font-weight: 700;
+
+}
+
+/* 计算部分 */
+.balance_data {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
+    border-top: 2px solid #ccc;
+    position: absolute;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    color: #666;
+    font-size: 15px;
+}
+
+.balance_data .sum_price .price {
+    font-size: 20px;
+
+}
+
+.balance_data .sum_price {
+    display: flex;
+    align-items: center;
+}
+
+.balance_data .sum_price .balance_button {
+    margin-left: 30px;
+}
+
+/* modal */
+.modal_address_select {
+    color: orange;
+    cursor: pointer;
+}
+
+.modal_address_select:hover {
+    color: #ffd486;
+}

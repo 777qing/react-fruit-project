@@ -1,0 +1,87 @@
+@media (max-width: 1300px) {}
+
+.home {
+    width: 100%;
+    min-width: 1400px;
+    background-color: #f1f2f3;
+    padding-bottom: 50px;
+}
+
+.home .home_carousel {
+    height: 500px;
+}
+
+.home .home_module {
+    margin-bottom: 20px;
+}
+
+/* 特价 */
+.home_special_offer {
+    /* width: 100%; */
+    /* min-width: 1400px; */
+    background: #fff;
+    height: 400px;
+    margin: 20px 0;
+}
+
+.home_special_offer .special_top {
+    text-align: center;
+    padding: 20px;
+}
+
+.special_top .title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.special_top .desc {
+    color: #666;
+}
+
+.special_good {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special_good .details {
+    min-width: 280px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #666;
+    /* background-color: pink; */
+}
+
+.special_good .details p {
+    margin: 10px 0;
+}
+
+.special_good .details .special_number {
+    /* height: 100px; */
+    /* background-color: red; */
+    margin-bottom: 25px;
+}
+
+.special_good .details .special_number span {
+    color: orange;
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.special_good .mode_special {
+    color: orange;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.special_good .mode_special:hover {
+    text-decoration: underline;
+    color: #f9bd4f;
+}
+
+.special_good .good img {
+    height: 280px;
+    width: 1000px;
+}

@@ -1,0 +1,68 @@
+.fruit_items .fruit_items_item_info,
+.fruit_items .fruit_items_shopping {
+  display: flex;
+  font-size: 15px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  color: #666;
+  align-items: end;
+}
+
+
+
+
+
+.fruit_items {
+  width: 300px;
+  flex-shrink: 0;
+  border: 1px solid #ccc;
+  height: 380px;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+.fruit_items:nth-of-type(4n+0) {
+  margin-right: 0;
+
+}
+
+
+.fruit_items img {
+  width: 100%;
+  height: 250px;
+}
+
+.fruit_items .fruit_items_name {
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px dashed #666;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 5px;
+  color: #000;
+
+}
+
+.fruit_items .fruit_items_item_info,
+.fruit_items .fruit_items_shopping {
+  padding: 0 10px;
+}
+
+
+.fruit_items_item_info .price {
+  color: red;
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+
+}
+
+.fruit_items_item_info .older {
+  text-decoration: line-through;
+  /* 添加删除线 */
+}
+
+
+.fruit_items .fruit_items_shopping {
+  justify-content: space-between;
+}

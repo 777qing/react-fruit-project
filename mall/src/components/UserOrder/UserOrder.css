@@ -1,0 +1,78 @@
+/* 可共用 */
+.user_order_list .order_list_state,
+.order_list_info .left_one,
+.left_one .order_list_left {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.order_list_info .left_one,
+.left_one .order_list_left {
+    align-items: center;
+}
+
+
+.user_order {
+    height: 680px;
+    overflow-y: auto;
+    /* background-color: yellow; */
+}
+
+.user_order_list {
+    /* background-color: pink; */
+    padding: 5px 10px;
+}
+
+/* 订单顶部 */
+
+.user_order_list .order_list_state {
+    border-bottom: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+
+.user_order_list .order_list_state .order_status {
+    color: red;
+}
+
+/* 订单list */
+.order_list_info {
+    color: #666;
+}
+
+.user_order_list li {
+    margin: 0 0 20px 0;
+}
+
+.order_list_info .order_img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.order_list_info .more_order_name {
+    white-space: nowrap;
+    /* 不换行 */
+    overflow: hidden;
+    /* 溢出隐藏 */
+    text-overflow: ellipsis;
+    /* 文字过多时显示省略号 */
+}
+
+.order_list_info .order_list_left .order_list_item {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.order_list_right .price {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* 订单底部 */
+.order_list_footer {
+    margin: 20px 0 0 0;
+    text-align: right;
+}

@@ -1,0 +1,26 @@
+.top_info {
+    width: 100%;
+    min-width: 1400px;
+    height: 40px;
+    line-height: 40px;
+    background-color: orange;
+
+    /* background-color: red; */
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.top_info ul li {
+    display: inline-block;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px;
+    border-right: 1px solid #fff;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.top_info ul li:last-child {
+    border-right: none;
+}

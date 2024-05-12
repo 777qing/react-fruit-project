@@ -1,0 +1,74 @@
+.home {
+  height: 100%;
+}
+
+.home .home_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+  box-sizing: border-box;
+  min-width: 1300px;
+  width: 100%;
+
+  height: 50px;
+  /* background-color: #a1d140; */
+  background-color: #78bd6a;
+  color: #fff;
+}
+
+.home_top .out_button {
+  background: transparent;
+  color: #fff;
+
+}
+
+.home_top .out_button:where(.css-dev-only-do-not-override-1kuana8).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  background: #6da961;
+  color: #fff;
+
+}
+
+.home_top .top_title {
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.home_container {
+  display: flex;
+  min-width: 1300px;
+  height: calc(100% - 50px);
+}
+
+.home_container .home_nav {
+  width: 255px;
+  height: 100%;
+  background-color: #78bd6a;
+}
+
+.home_container .ant-menu {
+  background-color: #78bd6a;
+}
+
+
+.home_container .ant-menu .ant-menu-item {
+  color: #fff;
+}
+
+.home_container .ant-menu .ant-menu-item:active,
+.home_container .ant-menu .ant-menu-item-selected {
+  /* background-color: #82a935; */
+  background-color: #6da961;
+}
+
+
+
+.home_container .home_main {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 10px;
+  /* height: 700px; */
+  /* background-color: red; */
+  overflow-y: auto;
+}

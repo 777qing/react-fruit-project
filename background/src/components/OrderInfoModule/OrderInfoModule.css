@@ -1,0 +1,23 @@
+.fruit_list .fruit_img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.fruit_list .list_li {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.fruit_list .list_li:nth-last-child(1) {
+  border: none;
+}
+
+.fruit_list .list_li p {
+  width: 100px;
+  /* background-color: red; */
+  text-align: center;
+  margin: 0 5px;
+}

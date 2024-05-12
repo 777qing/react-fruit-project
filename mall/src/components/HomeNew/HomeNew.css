@@ -1,0 +1,75 @@
+.module {
+  background-color: #fff;
+}
+
+.module .title {
+  padding: 20px 0;
+}
+
+.module .title h3 {
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.module .title span {
+  color: #666;
+}
+
+.module_goods {
+  display: flex;
+  height: 406px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.module_goods li{
+  cursor: pointer;
+}
+
+.goods_item {
+  background-color: #ffc54e73;
+  width: 24%;
+  /* width: 350px; */
+  height: 406px;
+  box-sizing: border-box;
+  transform: all 0.5s;
+  /* margin: 0 10px; */
+
+}
+
+.goods_item:hover {
+  transform: translate3d(0, -3px, 0);
+  box-shadow: 0 3px 8px rgb(0, 0, 0 / 20%);
+}
+
+.goods_item img {
+  width: 100%;
+  height: 306px;
+}
+
+.goods_item p {
+  font-size: 22px;
+  padding-top: 12px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.goods_item .price {
+  text-align: center;
+  color: red;
+}
+
+/* 可选，如果希望在窄屏幕上一行只显示两个商品 */
+@media (max-width: 1300px) {
+  .module_goods {
+    height: 818px;
+  }
+
+  .goods_item {
+    width: 48%;
+    margin: 5px 0;
+    /* 一行显示两个商品 */
+  }
+}

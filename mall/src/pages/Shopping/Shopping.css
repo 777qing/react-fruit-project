@@ -1,0 +1,67 @@
+.table_title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+.table_title img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+}
+
+.table_price {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.table_number button {
+    padding: 0;
+    width: 20px;
+    line-height: 0;
+    height: 20px;
+    border-radius: 0;
+}
+
+.table_number .number {
+    margin: 0 10px;
+}
+
+.table_operation .operation_delete {
+    border: none;
+    box-shadow: none;
+    color: #666;
+    background: transparent;
+}
+
+
+.table_operation :where(.css-dev-only-do-not-override-11xg00t).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+    background: transparent;
+    border: 0;
+    color: orange;
+
+}
+
+.shopping_sum{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.shopping_sum .sum_price{
+    margin: 0 40px 0 0px;
+    color: red;
+    font-size: 25px;
+}
+
+.shopping_sum .shopping_sum_button{
+    background-color: yellowgreen;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+}

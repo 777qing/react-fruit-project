@@ -1,0 +1,153 @@
+.text_letter {
+  letter-spacing: 25px;
+}
+
+.fruit {
+  color: #666;
+}
+
+.fruit_info,
+.fruit_specs_list,
+.fruit_appraise,
+.fruit_buy {
+  margin-bottom: 15px;
+}
+
+.fruit_specs_list,
+.fruit_appraise,
+.fruit_buy {
+  padding: 0 20px;
+}
+
+.fruit_goods_introduce {
+  display: flex;
+  height: 400px;
+}
+
+.fruit_goods_introduce img {
+  width: 600px;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.fruit_info .fruita_name {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+
+
+.price_module .price_module_info {
+  font-size: 14px;
+}
+
+.price_module_info .old_price {
+  text-decoration: line-through;
+}
+
+.price_module_info .desc {
+  color: #000;
+}
+
+.fruit_goods_right_main {
+  min-width: 500px;
+}
+
+.fruit_goods_right_main .price_module {
+  display: flex;
+  background: #f1f2f3;
+  padding: 20px;
+}
+
+.price_module .price {
+  color: yellowgreen;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 20px;
+
+
+}
+
+.fruit_specs_list,
+.fruit_specs_list .specs_module {
+  display: flex;
+}
+
+.fruit_specs_list .fruit_specs_list_title {
+  width: 100px;
+}
+
+.fruit_specs_list .specs_module {
+  flex-wrap: wrap;
+}
+
+
+
+.fruit_specs_list .other_specs {
+  border: 1px solid #ccc;
+  padding: 1px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.specs_module .select_specs {
+  border: 1px solid orange;
+  color: orange;
+}
+
+.fruit_appraise {
+  display: flex;
+  padding: 5px 0;
+  justify-content: space-evenly;
+  border-top: 1px dashed #666;
+  border-bottom: 1px dashed #666;
+}
+
+
+.fruit_appraise .buy_num {
+  color: yellowgreen;
+}
+
+.fruit_appraise .evaluate {
+  color: orangered;
+}
+
+.fruit_buy {
+  display: flex;
+  align-items: center;
+}
+
+.fruit_buy .add_car {
+  width: 80px;
+  background: red;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  background-color: yellowgreen;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* 下半部分 */
+.fruit_goods_details {
+  margin: 20px 0 0 0;
+  justify-content: center;
+}
+
+.fruit_goods_details .ant-tabs-nav-wrap {
+  justify-content: center;
+}
+
+/* .fruit_goods_details :where(.css-dev-only-do-not-override-11xg00t).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: orange;
+}
+
+.ant-tabs-ink-bar {
+  background-color: orange;
+} */
+
+/* .fruit_goods_details .ant-tabs-tab-active {
+  border: 2px solid orange;
+} */

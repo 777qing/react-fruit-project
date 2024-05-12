@@ -1,0 +1,73 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+html,
+body,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.centre {
+    padding: 0 250px;
+    /* box-sizing: border-box; */
+}
+
+.ant-btn {
+    background-color: orange;
+    border: none;
+    color: #fff;
+}
+
+
+
+/* 类别水果商品 */
+/* .category_fruits_list {
+    display: flex;
+} */
+
+.category_fruits_list {
+    display: flex;
+    font-size: 15px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    color: #666;
+    align-items: end;
+    min-width: 1400px;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    cursor: default;
+    user-select: none;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+.fruit_items_shopping .buy_num {
+    color: yellowgreen;
+}
+
+
+@media (max-width:1200px) {
+    .centre {
+        padding: 0;
+        /* 取消最小高度 */
+    }
+}

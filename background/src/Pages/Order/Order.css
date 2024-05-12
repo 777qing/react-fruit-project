@@ -1,0 +1,20 @@
+.fruit_info {
+  cursor: pointer;
+}
+
+.fruit_info:hover {
+  color: #337ff5;
+}
+
+.success_order_statue,
+.warning_order_status {
+  font-weight: 700;
+}
+
+.success_order_statue {
+  color: yellowgreen;
+}
+
+.warning_order_status {
+  color: red;
+}
