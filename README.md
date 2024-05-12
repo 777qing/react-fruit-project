@@ -13,7 +13,7 @@
     -->
 
 # 水果商城
-[![MongoDB](https://img.shields.io/badge/MongoDB-5.0.25-bluegreen.svg)](https://github.com/777qing/react-fruit-project) [![React](https://img.shields.io/badge/Reaact-18.2.0-bluegreen.svg)](https://github.com/777qing/react-fruit-project) [![Express](https://img.shields.io/badge/Express-4.19.2-bluegreen.svg)](https://github.com/777qing/react-fruit-project)
+[![MongoDB](https://img.shields.io/badge/MongoDB-5.0.25-bluegreen.svg)](https://github.com/777qing/react-fruit-project) [![React](https://img.shields.io/badge/React-18.2.0-bluegreen.svg)](https://github.com/777qing/react-fruit-project) [![Express](https://img.shields.io/badge/Express-4.19.2-bluegreen.svg)](https://github.com/777qing/react-fruit-project)
 
 
 基于Express、MongoDB、React、Axios、Ant Design 实现。 
