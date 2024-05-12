@@ -35,28 +35,28 @@ npm run dev
 
 ## 项目截图
 1. 商城登录页
-![商城登录页](/screenshot/商城登录页.png)
+![商城登录页](./screenshot/商城登录页.png)
 
 2. 商城首页
-![商城首页](/screenshot/商城首页.jpeg)
+![商城首页](./screenshot/商城首页.jpeg)
 
 3. 商城分类
-![商城分类](/screenshot/商城分类.png)
+![商城分类](./screenshot/商城分类.png)
 
 4. 购物车
-![购物车](/screenshot/商城购物车.png)
+![购物车](./screenshot/商城购物车.png)
 
 4. 用户信息
-![用户信息](/screenshot/商城用户信息.png)
+![用户信息](./screenshot/商城用户信息.png)
 
 4. 后台登录页
-![后台登录页](/screenshot/后台管理登录页.png)
+![后台登录页](./screenshot/后台管理登录页.png)
 
 4. 后台管理员信息页面
-![后台管理员](/screenshot/后台管理员页面.png)
+![后台管理员](./screenshot/后台管理员页面.png)
 
 4. 后台水果管理页面
-![后台水果管理页面](/screenshot/后台水果管理页面.png)
+![后台水果管理页面](./screenshot/后台水果管理页面.png)
 
 4. 后台订单管理页面
-![后台订单管理页面](/screenshot/后台订单管理页面.png)
+![后台订单管理页面](./screenshot/后台订单管理页面.png)
